@@ -1,0 +1,45 @@
+.project {
+    .text {
+        font-size: 15px;
+        font-weight: 700;
+        line-height: 14.52px;
+        color: #787486;
+        height: 15px;
+
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+.add {
+    margin-left: -11px;
+}
+
+.project {
+    align-items: center;
+    display: flex;
+    // justify-content: space-between;
+    float: left;
+
+    .projectIcon {
+        margin-right: 11px;
+        height: 24px;
+        width: 24px;
+        margin-left: 12px;
+    }
+
+    .projectText {
+        margin-right: 52px;
+    }
+}
+
+.mobileApp {
+    height: 39px;
+    width: 225px;
+    left: -704px;
+    top: -28px;
+    border-radius: 6px;
+    background-color: rgba(80, 48, 229, 0.08);
+    margin-left: 10px;
+    padding-left: 10px;
+}
